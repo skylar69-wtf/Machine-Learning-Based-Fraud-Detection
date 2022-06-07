@@ -221,7 +221,7 @@
     }
    ],
    "source": [
-    "fio = requests.get(f\"http://proxycheck.io/v2/{ip}?vpn=1&asn=1?key=60753s-542013-u8o159-558p9x\").json()\n",
+    "fio = requests.get(f\"http://proxycheck.io/v2/{ip}?vpn=1&asn=1?key=[GET UR OWN KEY OR CHECK API_INFO.TXT]\").json()\n",
     "fiop = fio[ip][\"proxy\"]\n",
     "print(f\"IS_Proxy: {fiop}\")"
    ]
