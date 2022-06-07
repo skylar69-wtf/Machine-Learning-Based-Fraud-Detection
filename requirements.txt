@@ -1,1 +1,7 @@
-
+requests>=
+json>=
+BeautifulSoup>=
+numpy>=
+pandas>=
+matplotlib>=
+sklearn>=
